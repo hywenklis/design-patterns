@@ -23,7 +23,7 @@ O padrão Abstract Factory fornece uma interface para criar famílias de objetos
 ### Decorator
 O padrão Decorator permite adicionar comportamentos adicionais a um objeto dinamicamente, envolvendo-o em objetos de decoração. Isso fornece uma alternativa flexível à herança tradicional para estender a funcionalidade de um objeto.
 
-### Factory Method
+### Factory Method - [clique aqui](https://github.com/hywenklis/design-patterns/tree/main/factorymethod)
 O padrão Factory Method fornece uma interface para criar objetos, mas permite que as subclasses decidam qual classe instanciar. Ele delega a responsabilidade de criação de objetos para subclasses, permitindo que o código cliente trabalhe com a interface abstrata em vez de classes concretas.
 
 ### Proxy
