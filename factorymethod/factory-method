@@ -1,0 +1,91 @@
+<mxfile host="app.diagrams.net" modified="2023-06-08T01:07:48.929Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="NqeiJx7FKbQ14E-z8KFM" version="21.3.7" type="device">
+  <diagram name="Página-1" id="RHhGuZ-GYdXzD2KYEVS-">
+    <mxGraphModel dx="2261" dy="1927" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nODNzd5XpltFOeWleoSv-32" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-31" y="390" width="990" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="nODNzd5XpltFOeWleoSv-31" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="70" y="140" width="800" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="nODNzd5XpltFOeWleoSv-4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nODNzd5XpltFOeWleoSv-2" target="nODNzd5XpltFOeWleoSv-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nODNzd5XpltFOeWleoSv-2" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;abstract&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;DirectMail&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;#&amp;nbsp;createContacts&lt;span style=&quot;background-color: initial;&quot;&gt;(): Contacts&lt;/span&gt;&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ sendEmail(message, String): void&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="110" y="200" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="nODNzd5XpltFOeWleoSv-3" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;i&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/i&gt;&lt;br&gt;&lt;b&gt;Contacts&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ all&lt;span style=&quot;background-color: initial;&quot;&gt;(): List&amp;lt;Contacts&amp;gt;&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="627" y="200" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="nODNzd5XpltFOeWleoSv-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="nODNzd5XpltFOeWleoSv-5" target="nODNzd5XpltFOeWleoSv-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nODNzd5XpltFOeWleoSv-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="nODNzd5XpltFOeWleoSv-5" target="nODNzd5XpltFOeWleoSv-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nODNzd5XpltFOeWleoSv-19" value="Create" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nODNzd5XpltFOeWleoSv-17">
+          <mxGeometry x="-0.28" y="-4" relative="1" as="geometry">
+            <mxPoint x="14" y="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nODNzd5XpltFOeWleoSv-5" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;DirectMailCSV&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ createContacts&lt;span style=&quot;background-color: initial;&quot;&gt;(): Contacts&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="209" y="510" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nODNzd5XpltFOeWleoSv-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nODNzd5XpltFOeWleoSv-6" target="nODNzd5XpltFOeWleoSv-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nODNzd5XpltFOeWleoSv-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="nODNzd5XpltFOeWleoSv-6" target="nODNzd5XpltFOeWleoSv-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nODNzd5XpltFOeWleoSv-18" value="Create" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nODNzd5XpltFOeWleoSv-16">
+          <mxGeometry x="-0.0564" y="-2" relative="1" as="geometry">
+            <mxPoint x="22" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nODNzd5XpltFOeWleoSv-6" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;DirectMailXML&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ createContacts&lt;span style=&quot;background-color: initial;&quot;&gt;(): Contacts&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="-11" y="510" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nODNzd5XpltFOeWleoSv-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nODNzd5XpltFOeWleoSv-7" target="nODNzd5XpltFOeWleoSv-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nODNzd5XpltFOeWleoSv-7" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ContactsCSV&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ all&lt;span style=&quot;background-color: initial;&quot;&gt;(): List&amp;lt;Contacts&amp;gt;&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="509" y="510" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nODNzd5XpltFOeWleoSv-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="nODNzd5XpltFOeWleoSv-8" target="nODNzd5XpltFOeWleoSv-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nODNzd5XpltFOeWleoSv-8" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;&quot;&gt;&lt;b&gt;ContactsXML&lt;/b&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;&lt;br&gt;&lt;/p&gt;&lt;hr size=&quot;1&quot;&gt;&lt;p style=&quot;margin:0px;margin-left:4px;&quot;&gt;+ all&lt;span style=&quot;background-color: initial;&quot;&gt;(): List&amp;lt;Contacts&amp;gt;&lt;/span&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="729" y="510" width="200" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="nODNzd5XpltFOeWleoSv-24" value="directmail-lib" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="134" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nODNzd5XpltFOeWleoSv-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="nODNzd5XpltFOeWleoSv-25" target="nODNzd5XpltFOeWleoSv-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="nODNzd5XpltFOeWleoSv-27" value="Use" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="nODNzd5XpltFOeWleoSv-26">
+          <mxGeometry x="0.0667" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nODNzd5XpltFOeWleoSv-25" value="directmail-client" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="674" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="nODNzd5XpltFOeWleoSv-30" value="&lt;b&gt;directmail-lib&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="414" y="148" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nODNzd5XpltFOeWleoSv-33" value="&lt;b&gt;directmail-client&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="409" y="400" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="nODNzd5XpltFOeWleoSv-36" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="-170" y="-40" width="1220" height="740" as="geometry" />
+        </mxCell>
+        <mxCell id="nODNzd5XpltFOeWleoSv-37" value="&lt;b&gt;Factory Method&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="nODNzd5XpltFOeWleoSv-36">
+          <mxGeometry x="10" y="10" width="110" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
